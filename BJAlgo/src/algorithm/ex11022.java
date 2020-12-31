@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter;
 public class ex11022 {
 	public static void main(String[] args) {
 		try {
-			// 두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
+			// 11021 심화
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 			int t = Integer.parseInt(br.readLine());
