@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ex8393 {
 	public static void main(String[] args) {
+		// 1부터 자연수 n까지의 합 구하기
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		if(n >= 1 && n <= 10000) {

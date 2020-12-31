@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ex2739 {
 	public static void main(String[] args) {
+		//구구단 출력
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		
