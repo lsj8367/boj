@@ -10,23 +10,23 @@ public class ex10871 {
 		try {
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-			int n = 0;
-			int x = 0;
 			String ss = br.readLine();
-			for(int i = 0; i < 2; i++) {
-				String[] text = ss.split(" ");
-				n = Integer.parseInt(text[0]);
-				x = Integer.parseInt(text[1]);
-			}
+			String[] text = ss.split(" ");
+			int n = Integer.parseInt(text[0]); 
+			int x = Integer.parseInt(text[1]);
 			
+			int cnt = 0;
 			String aa = br.readLine();
 			for(int i = 0; i < n; i++) {
 				String[] arr = aa.split(" ");
 				
 				if(Integer.parseInt(arr[i]) < x) {
-					bw.write(arr[i] + " ");
+					bw.write(Integer.parseInt(arr[i]) + " ");
+					if(cnt == (arr.length - 1)) {
+						bw.write(Integer.parseInt(arr[i]));
+					}
 				}
-				
+				cnt++;
 			}
 			
 			bw.flush();
