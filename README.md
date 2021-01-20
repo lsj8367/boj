@@ -1,6 +1,6 @@
 # 백준알고리즘
 * 단계별로 문제 풀이
-  * 입출력과 사칙연산	입력, 출력과 사칙연산 <span style="color:red">완료</span>
+  * 입출력과 사칙연산	입력, 출력과 사칙연산 <b style="color:red">완료</b>
   * if문	if문을 사용해 봅시다.	완료
   * for문	for문을 사용해 봅시다.	완료
   * while문	while문을 사용해 봅시다.	완료
