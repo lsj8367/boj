@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class ex2577 {
 	public static void main(String[] args) {
-//		¼¼ °³ÀÇ ÀÚ¿¬¼ö A, B, C°¡ ÁÖ¾îÁú ¶§ A ¡¿ B ¡¿ C¸¦ °è»êÇÑ °á°ú¿¡ 0ºÎÅÍ 9±îÁö °¢°¢ÀÇ ¼ýÀÚ°¡ ¸î ¹ø¾¿ ¾²¿´´ÂÁö¸¦ ±¸ÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
-//		¿¹¸¦ µé¾î A = 150, B = 266, C = 427 ÀÌ¶ó¸é
-//		A ¡¿ B ¡¿ C = 150 ¡¿ 266 ¡¿ 427 = 17037300 ÀÌ µÇ°í
-//		°è»êÇÑ °á°ú 17037300 ¿¡´Â 0ÀÌ 3¹ø, 1ÀÌ 1¹ø, 3ÀÌ 2¹ø, 7ÀÌ 2¹ø ¾²¿´´Ù.
+//		ì„¸ ê°œì˜ ìžì—°ìˆ˜ A, B, Cê°€ ì£¼ì–´ì§ˆ ë•Œ A Ã— B Ã— Cë¥¼ ê³„ì‚°í•œ ê²°ê³¼ì— 0ë¶€í„° 9ê¹Œì§€ ê°ê°ì˜ ìˆ«ìžê°€ ëª‡ ë²ˆì”© ì“°ì˜€ëŠ”ì§€ë¥¼ êµ¬í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•˜ì‹œì˜¤.
+//		ì˜ˆë¥¼ ë“¤ì–´ A = 150, B = 266, C = 427 ì´ë¼ë©´
+//		A Ã— B Ã— C = 150 Ã— 266 Ã— 427 = 17037300 ì´ ë˜ê³ 
+//		ê³„ì‚°í•œ ê²°ê³¼ 17037300 ì—ëŠ” 0ì´ 3ë²ˆ, 1ì´ 1ë²ˆ, 3ì´ 2ë²ˆ, 7ì´ 2ë²ˆ ì“°ì˜€ë‹¤.
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();

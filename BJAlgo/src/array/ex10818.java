@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ex10818 {
 	public static void main(String[] args) {
-		// N°³ÀÇ Á¤¼ö°¡ ÁÖ¾îÁø´Ù. ÀÌ¶§, ÃÖ¼Ú°ª°ú ÃÖ´ñ°ªÀ» ±¸ÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
+		// Nê°œì˜ ì •ìˆ˜ê°€ ì£¼ì–´ì§„ë‹¤. ì´ë•Œ, ìµœì†Ÿê°’ê³¼ ìµœëŒ“ê°’ì„ êµ¬í•˜ëŠ” í”„ë¡œê·¸ë¨ì„ ì‘ì„±í•˜ì‹œì˜¤.
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int arr[] = new int[n];

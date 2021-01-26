@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter;
 public class ex11022 {
 	public static void main(String[] args) {
 		try {
-			// 11021 Ω…»≠
+			// 11021 buffer Î≤ÑÏ†Ñ
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 			int t = Integer.parseInt(br.readLine());

@@ -1,8 +1,8 @@
 package function;
 
 public class ex15596 {
-//	a: ÇÕÀ» ±¸ÇØ¾ß ÇÏ´Â Á¤¼ö n°³°¡ ÀúÀåµÇ¾î ÀÖ´Â ¹è¿­ (0 ¡Â a[i] ¡Â 1,000,000, 1 ¡Â n ¡Â 3,000,000)
-//	¸®ÅÏ°ª: a¿¡ Æ÷ÇÔµÇ¾î ÀÖ´Â Á¤¼ö n°³ÀÇ ÇÕ
+//	a: í•©ì„ êµ¬í•´ì•¼ í•˜ëŠ” ì •ìˆ˜ nê°œê°€ ì €ìž¥ë˜ì–´ ìžˆëŠ” ë°°ì—´ (0 â‰¤ a[i] â‰¤ 1,000,000, 1 â‰¤ n â‰¤ 3,000,000)
+//	ë¦¬í„´ê°’: aì— í¬í•¨ë˜ì–´ ìžˆëŠ” ì •ìˆ˜ nê°œì˜ í•©
 	long sum(int[] a) {
 		long ans = 0;
 		for(int i = 0; i < a.length; i++) {

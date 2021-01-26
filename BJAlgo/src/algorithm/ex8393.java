@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ex8393 {
 	public static void main(String[] args) {
-		// 1ºÎÅÍ ÀÚ¿¬¼ö n±îÁöÀÇ ÇÕ ±¸ÇÏ±â
+		// 1ë¶€í„° nê¹Œì§€ì˜ í•© êµ¬í•˜ê¸°
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		if(n >= 1 && n <= 10000) {

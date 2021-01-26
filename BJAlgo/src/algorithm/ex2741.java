@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter;
 public class ex2741 {
 	public static void main(String[] args) {
 		try {
-			// ÀÚ¿¬¼ö NÀÌ ÁÖ¾îÁ³À»¶§ 1ºÎÅÍ n±îÁö Ãâ·Â.
+			//ìì—°ìˆ˜ Nì´ ì£¼ì–´ì¡Œì„ ë•Œ, 1ë¶€í„° Nê¹Œì§€ í•œ ì¤„ì— í•˜ë‚˜ì”© ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ë¨ì„ ì‘ì„±í•˜ì‹œì˜¤.
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 			int n = Integer.parseInt(br.readLine());

@@ -39,8 +39,8 @@ public class ex1065 {
 		return abc(arr);
 	}
 	
-	private static boolean abc(int[] arr) { //등차수열 판별
-		int a = arr[1] - arr[0]; //공차
+	private static boolean abc(int[] arr) {
+		int a = arr[1] - arr[0];
 		for(int j = 2; j < arr.length; j++) {
 			if(arr[j] - arr[j-1] != a) {
 				return false;
