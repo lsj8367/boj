@@ -12,19 +12,19 @@ public class ex1157 {
 		int max = 0;
 		int count = 0;
 		int result = 0; //알파벳 더하려고
-		
+
 		for(int i = 0; i < ss.length(); i++) {
 			char a = ss.charAt(i);
 			//65은 a 의 아스키코드값
 			arr[a - 65]++;
 		}
-		
+
 		for(int i = 0; i < arr.length; i++) {
 			if(arr[i] > max) {
 				max = arr[i]; //최대값
 			}
 		}
-		
+
 		//max 중복값
 		for(int i = 0; i < arr.length; i++) {
 			if(max == arr[i]) {
@@ -32,6 +32,7 @@ public class ex1157 {
 				result = i;
 			}			
 		}
+
 		if(count > 1) {
 			System.out.println("?");
 		}else {
