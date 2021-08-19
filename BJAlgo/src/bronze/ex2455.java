@@ -1,4 +1,4 @@
-package bronze.tier3;
+package bronze;
 
 import java.util.Scanner;
 

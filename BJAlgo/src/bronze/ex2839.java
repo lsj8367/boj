@@ -1,4 +1,4 @@
-package bronze.tier1;
+package bronze;
 
 // 문제
 // 상근이는 요즘 설탕공장에서 설탕을 배달하고 있다.
