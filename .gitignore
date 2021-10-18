@@ -3,3 +3,6 @@
 .settings/
 *.xml
 BJAlgo/*.iml
+BackJoon/build/
+BackJoon/out/
+.gradle/
