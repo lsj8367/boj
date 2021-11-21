@@ -6,3 +6,4 @@ BJAlgo/*.iml
 BackJoon/build/
 BackJoon/out/
 .gradle/
+.idea/
