@@ -7,3 +7,5 @@ BackJoon/build/
 BackJoon/out/
 .gradle/
 .idea/
+out/
+build/
