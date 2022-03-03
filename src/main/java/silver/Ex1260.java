@@ -9,7 +9,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 import java.util.StringTokenizer;
-import javax.swing.GroupLayout.Alignment;
 
 public class Ex1260 {
 
