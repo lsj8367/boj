@@ -11,7 +11,8 @@ public class Ex11720 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
 
-        final int[] arr = Arrays.stream(br.readLine().split("")).mapToInt(Integer::parseInt)
+        final int[] arr = Arrays.stream(br.readLine().split(""))
+            .mapToInt(Integer::parseInt)
             .toArray();
 
         int sum = 0;
