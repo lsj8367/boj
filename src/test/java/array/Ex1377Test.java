@@ -3,7 +3,6 @@ package array;
 import static org.assertj.core.api.Assertions.assertThat;
 import array.Ex1377.Data;
 import java.util.stream.Stream;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
