@@ -24,7 +24,7 @@ public class Ex1157 {
         );
     }
 
-    private String solution(final String s) {
+    private static String solution(final String s) {
         Map<String, Integer> map = new HashMap<>();
         int max = 0;
 
@@ -34,13 +34,16 @@ public class Ex1157 {
             map.put(key, map.getOrDefault(key, 0) + 1);
         }
 
-        int duplicate = 0;
-        String maxKey = null;
         for (String character : map.keySet()) {
             if (map.get(character) > max) {
                 max = map.get(character);
             }
+        }
 
+        int duplicate = 0;
+
+        String maxKey = null;
+        for (String character : map.keySet()) {
             if (max == map.get(character)) {
                 duplicate++;
                 maxKey = character;
