@@ -15,8 +15,6 @@ public class Ex1260 {
     private static boolean[] visited;
     private static int[][] arr;
     private static int n;
-    private static int m;
-    private static int v;
 
 
     public static void main(String[] args) throws IOException {
@@ -24,8 +22,8 @@ public class Ex1260 {
         StringTokenizer st = new StringTokenizer(br.readLine());
 
         n = Integer.parseInt(st.nextToken());
-        m = Integer.parseInt(st.nextToken());
-        v = Integer.parseInt(st.nextToken());
+        final int m = Integer.parseInt(st.nextToken());
+        final int v = Integer.parseInt(st.nextToken());
 
         visited = new boolean[n + 1];
         arr = new int[1001][1001];
