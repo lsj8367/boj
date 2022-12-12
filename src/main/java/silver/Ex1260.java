@@ -13,34 +13,29 @@ import java.util.StringTokenizer;
 public class Ex1260 {
 
     private static boolean[] visited;
-    private static List<List<Integer>> list;
+    private static int[][] arr;
+    private static int n;
+    private static int m;
+    private static int v;
+
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int n = Integer.parseInt(st.nextToken());
-        int m = Integer.parseInt(st.nextToken());
-        int v = Integer.parseInt(st.nextToken());
+        n = Integer.parseInt(st.nextToken());
+        m = Integer.parseInt(st.nextToken());
+        v = Integer.parseInt(st.nextToken());
 
         visited = new boolean[n + 1];
-        list = new ArrayList<>();
-
-        for (int i = 0; i <= m; i++) {
-            list.add(new ArrayList<>());
-        }
-
+        arr = new int[1001][1001];
 
         for (int i = 1; i <= m; i++) {
             st = new StringTokenizer(br.readLine());
             final int front = Integer.parseInt(st.nextToken());
             final int back = Integer.parseInt(st.nextToken());
-            list.get(front).add(back);
-            list.get(back).add(front);
-        }
-
-        for (int i = 1; i <= m; i++) {
-            Collections.sort(list.get(i));
+            arr[front][back] = 1;
+            arr[back][front] = 1;
         }
 
         dfs(v);
@@ -55,10 +50,9 @@ public class Ex1260 {
         visited[number] = true;
         System.out.print(number + " ");
 
-        for (int i = 0; i < list.get(number).size(); i++) {
-            int nextNode = list.get(number).get(i);
-            if (!visited[nextNode]) {
-                dfs(nextNode);
+        for (int i = 1; i <= n; i++) {
+            if (arr[number][i] == 1 && !visited[i]) {
+                dfs(i);
             }
         }
 
@@ -73,11 +67,10 @@ public class Ex1260 {
             number = q.poll();
             System.out.print(number + " ");
 
-            for (int i = 0; i < list.get(number).size(); i++) {
-                int nextNode = list.get(number).get(i);
-                if (!visited[nextNode]) {
-                    q.offer(nextNode);
-                    visited[nextNode] = true;
+            for (int i = 0; i < n + 1; i++) {
+                if (!visited[i] && arr[number][i] == 1) {
+                    q.offer(i);
+                    visited[i] = true;
                 }
             }
         }
